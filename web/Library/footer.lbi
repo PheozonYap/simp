@@ -1,0 +1,152 @@
+<table width="100%" border="0" cellspacing="0" cellpadding="0" class="SiteTable" align="center">
+<tr>
+	<td class="footer_bg" >
+    	<ul class="footer_menu">
+        	<li class="first"><a href="#">Shop</a></li>
+            <li><a href="#">The Crew</a></li>
+            <li><a href="#">Work With Us</a></li>
+            <li><a href="#">Advertise</a></li>
+        </ul>
+    </td>
+</tr>
+
+<tr>
+<td>
+	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+    <td>
+	<ul class="footer_list">
+    	<li class="footer_title"><a href="#">Esports</a></li>
+        <li><a href="#">E-sports Events</a></li>
+        <li><a href="#">E-sports Matches</a></li>
+       	<li><a href="#">E-sports Rankings</a></li>
+        <li><a href="#">E-sports Trading</a></li>
+        <li><a href="#">E-sports Streams</a></li>
+        <li><a href="#">E-sports Replays</a></li>
+        <li><a href="#">E-sports VODs</a></li>
+        <li><a href="#">E-sports Forums</a></li>
+        <li><a href="#">E-sports Highlights</a></li>
+    </ul>
+	</td>
+
+	<td>
+	<ul class="footer_list">
+    	<li class="footer_title"><a href="#">Dota 2</a></li>
+        <li><a href="#">Dota 2 Events</a></li>
+        <li><a href="#">Dota 2 Matches</a></li>
+        <li><a href="#">Dota 2 Rankings</a></li>
+        <li><a href="#">Dota 2 Stats</a></li>
+        <li><a href="#">Dota 2 Trading</a></li>
+        <li><a href="#">Dota 2 Items</a></li>
+        <li><a href="#">Dota 2 Streams</a></li>
+        <li><a href="#">Dota 2 VODs</a></li>
+        <li><a href="#">Dota 2 Forums</a></li>
+        <li><a href="#">Dota 2 Highlights</a></li>
+    </ul>
+	</td>
+
+	<td>
+	<ul class="footer_list">
+    	<li class="footer_title"><a href="#">League of Legends</a></li>
+        <li><a href="#">LoL Events</a></li>
+        <li><a href="#">LoL Matches</a></li>
+        <li><a href="#">LoL Rankings</a></li>
+        <li><a href="#">LoL Stats</a></li>
+        <li><a href="#">LoL Streams</a></li>
+        <li><a href="#">LoL VODs</a></li>
+        <li><a href="#">LoL Forums</a></li>
+        <li><a href="#">LoL Highlights</a></li>
+    </ul>
+	</td>
+
+	<td>
+	<ul class="footer_list">
+    	<li class="footer_title"><a href="#">Hearthstone</a></li>
+        <li><a href="#">HS Events</a></li>
+        <li><a href="#">HS Matches</a></li>
+        <li><a href="#">HS Rankings</a></li>
+        <li><a href="#">HS Stats</a></li>
+        <li><a href="#">HS Streams</a></li>
+        <li><a href="#">HS VODs</a></li>
+        <li><a href="#">HS Cards</a></li>
+        <li><a href="#">HS Decks</a></li>
+        <li><a href="#">HS Deckbuilder</a></li>
+        <li><a href="#">HS Forums</a></li>
+        <li><a href="#">HS Highlights</a></li>
+    </ul>
+	</td>
+
+	<td>
+	<ul class="footer_list">
+    	<li class="footer_title"><a href="#">Heroes of the Storm</a></li>
+        <li><a href="#">Heroes Events</a></li>
+        <li><a href="#">Heroes Matches</a></li>
+        <li><a href="#">Heroes Rankings</a></li>
+        <li><a href="#">Heroes Stats</a></li>
+        <li><a href="#">Heroes VODs</a></li>
+        <li><a href="#">Heroes Streams</a></li>
+        <li><a href="#">Heroes Forums</a></li>
+        <li><a href="#">Heroes Replays</a></li>
+        <li><a href="#">Heroes Highlights</a></li>
+    </ul>
+	</td>
+	
+	<td>
+	<ul class="footer_list">
+    	<li class="footer_title"><a href="#">CS:GO</a></li>
+        <li><a href="#">CS:GO Events</a></li>
+        <li><a href="#">CS:GO Matches</a></li>
+        <li><a href="#">CS:GO Rankings</a></li>
+        <li><a href="#">CS:GO Items</a></li>
+        <li><a href="#">CS:GO Trading</a></li>
+        <li><a href="#">CS:GO Streams</a></li>
+        <li><a href="#">CS:GO Demos</a></li>
+        <li><a href="#">CS:GO VODs</a></li>
+        <li><a href="#">CS:GO Forums</a></li>
+        <li><a href="#">CS:GO Highlights</a></li>
+    </ul>
+	</td>
+
+	<td>
+	<ul class="footer_list">
+    	<li class="footer_title"><a href="#">Overwatch</a></li>
+        <li><a href="#">OW Events</a></li>
+        <li><a href="#">OW Matches</a></li>
+        <li><a href="#">OW Rankings</a></li>
+        <li><a href="#">OW Streams</a></li>
+        <li><a href="#">OW VODs</a></li>
+        <li><a href="#">OW Forums</a></li>
+        <li><a href="#">OW Highlights</a></li>
+    </ul>
+	</td>
+
+	<td>
+	<ul class="footer_list">
+    	<li class="footer_title"><a href="#">StarCraft 2</a></li>
+        <li><a href="#">SC2 Events</a></li>
+        <li><a href="#">SC2 Matches</a></li>
+        <li><a href="#">SC2 Rankings</a></li>
+        <li><a href="#">SC2 Replays</a></li>
+        <li><a href="#">SC2 Streams</a></li>
+        <li><a href="#">SC2 VODs</a></li>
+        <li><a href="#">SC2 Forums</a></li>
+        <li><a href="#">SC2 Highlights</a></li>
+    </ul>
+	</td>
+
+	<td>
+	<ul class="footer_list">
+    	<li class="footer_title"><a href="#">Legacy</a></li>
+        <li><a href="#">StarCraft</a></li>
+        <li><a href="#">DotA</a></li>
+        <li><a href="#">Warcraft 3</a></li>
+        <li><a href="#">Diablo 3</a></li>
+        <li><a href="#">WoW</a></li>
+        <li><a href="#">HoN</a></li>
+    </ul>
+	</td>
+	</tr>
+    </table>
+</td>    
+</tr>
+</table>

@@ -1,0 +1,469 @@
+/* MENU CONTAINER BAR 
+----------------------------------------------------------*/
+#topmenu {
+	list-style:none; height:30px; width:100%;
+	margin:1px auto 0px auto; /*top right bottom left*/
+	padding:0px 1px 0px 1px;
+	/* Background color and gradients */	
+	background:url(../../../img/plugin/TopMenu/bg_toptab.gif) repeat-x left top;
+	/* Borders */	
+	border: 1px solid #004444;
+	-moz-box-shadow:inset 0px 0px 1px #edf9ff;
+	-webkit-box-shadow:inset 0px 0px 1px #edf9ff;
+	box-shadow:inset 0px 0px 1px #edf9ff;
+}
+#topmenu02 {
+	list-style:none; height:30px; width:100%;
+	margin:1px auto 0px auto; /*top right bottom left*/
+	padding:0px 1px 0px 1px;
+}
+
+
+/* STYLING MENU ITEMS
+----------------------------------------------------------*/
+#topmenu ul li {margin: 1px; padding: 1px;}
+#topmenu li {float:left; display:block;	text-align:center; position:relative;
+	padding: 4px 6px 4px 6px;  /*top right bottom left*/
+	margin-right:0px; margin-top:2px; border:none;
+}
+#topmenu li:hover {border: 1px solid #777777; padding: 4px 5px 4px 5px;
+	/* Background color and gradients */	
+	background: #FFFFFF;		
+	/* Rounded corners */	
+	-moz-border-radius: 5px 5px 0px 0px;
+	-webkit-border-radius: 5px 5px 0px 0px;
+	border-radius: 5px 5px 0px 0px;
+}
+#topmenu li a {font-family: Arial; font-size:10pt; font-weight:bold; color: #FFF; display:block; outline:0; text-decoration:none; text-shadow: 1px 1px 1px #000;}
+#topmenu li:hover a {color:#161616;	text-shadow: 1px 1px 1px #ffffff;}
+#topmenu ul li a.more:link 		{font-size: 9pt; text-decoration: none; color: #006699; font-weight:normal; margin-bottom: 0px; margin-top: 0px;}
+#topmenu ul li a.more:hover		{font-size: 9pt; text-decoration: none; color: #161616; font-weight:normal; margin-bottom: 0px; margin-top: 0px;}
+#topmenu ul li a.more:visited 	{font-size: 9pt; text-decoration: none; color: #006699; font-weight:normal; margin-bottom: 0px; margin-top: 0px;}
+#topmenu ul li a.more:active 	{font-size: 9pt; text-decoration: none; color: #006699; font-weight:normal; margin-bottom: 0px; margin-top: 0px;}
+
+
+#topmenu02 ul li {margin: 1px; padding: 1px;}
+#topmenu02 li {float:left; display:block;	text-align:center; position:relative;
+	padding: 4px 6px 4px 6px;  /*top right bottom left*/
+	margin-right:0px; margin-top:2px; border:none;
+}
+#topmenu02 li:hover {border: 1px solid #777777; padding: 4px 5px 4px 5px;
+	/* Background color and gradients */	
+	background: #FFFFFF;		
+	/* Rounded corners */	
+	-moz-border-radius: 5px 5px 0px 0px;
+	-webkit-border-radius: 5px 5px 0px 0px;
+	border-radius: 5px 5px 0px 0px;
+}
+#topmenu02 li a {font-family: Arial; font-size:10pt; font-weight:bold; color: #FFF; display:block; outline:0; text-decoration:none; text-shadow: 1px 1px 1px #000;}
+#topmenu02 li:hover a {color:#161616;	text-shadow: 1px 1px 1px #ffffff;}
+#topmenu02 ul li a.more:link 		{font-size: 9pt; text-decoration: none; color: #006699; font-weight:normal; margin-bottom: 0px; margin-top: 0px;}
+#topmenu02 ul li a.more:hover		{font-size: 9pt; text-decoration: none; color: #161616; font-weight:normal; margin-bottom: 0px; margin-top: 0px;}
+#topmenu02 ul li a.more:visited 	{font-size: 9pt; text-decoration: none; color: #006699; font-weight:normal; margin-bottom: 0px; margin-top: 0px;}
+#topmenu02 ul li a.more:active 	{font-size: 9pt; text-decoration: none; color: #006699; font-weight:normal; margin-bottom: 0px; margin-top: 0px;}
+
+
+
+
+/* DROPDOWN ARROW ICON
+----------------------------------------------------------*/
+#topmenu li .drop {padding-right:10px; font-size:10pt; font-family: Arial;}
+#topmenu li:hover .drop {color: #000; background:url("../../../img/plugin/TopMenu/ico_topmenu_drop_on.gif") no-repeat right 6px;}
+
+#topmenu02 li .drop {padding-right:10px; font-size:10pt; font-family: Arial;	background:url("../../../img/plugin/TopMenu/ico_topmenu_drop_off.gif") no-repeat right 6px;}
+#topmenu02 li:hover .drop {color: #000; background:url("../../../img/plugin/TopMenu/ico_topmenu_drop_on.gif") no-repeat right 6px;}
+
+
+/* TAB HIGHLIGHT FOR CURRENT PAGE
+----------------------------------------------------------*/
+body#home a#home_nav,
+body#general a#general_nav,
+body#banner a#banner_nav,
+body#notice a#notice_nav,
+body#guide a#guide_nav,
+body#news a#news_nav, 
+body#system a#system_nav,
+body#profile a#profile_nav {font-family: Arial; font-size:10pt; color: #ffcc66; text-shadow: 1px 1px 1px #000;} /*selected module highlight with text effect */
+
+
+/* DROPDOWN COLUMN
+----------------------------------------------------------*/
+.dropdown_1column, 
+.dropdown_2columns, 
+.dropdown_3columns, 
+.dropdown_4columns,
+.dropdown_5columns,
+.dropdown_6columns {
+	margin:4px auto;
+	float:left;
+	position:absolute; z-index:100;
+	left:-999em; /* Hides the drop down */
+	text-align:left;
+	padding:10px 5px 10px 5px;
+	border:1px solid #777777;
+	border-top:none;
+	
+	/* Gradient background */
+	background:#FFFFFF;
+	background: -moz-linear-gradient(top, #FFFFFF, #f4fbff);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFFFFF), to(#f4fbff));
+
+	/* Rounded Corners */
+	-moz-border-radius: 0px 5px 5px 5px;
+	-webkit-border-radius: 0px 5px 5px 5px;
+	border-radius: 0px 5px 5px 5px;	
+	
+	-webkit-box-shadow: 0 6px 3px -4px #999999;
+	-moz-box-shadow: 0 6px 3px -4px #999999;
+	box-shadow: 0 6px 3px -4px #999999;
+}
+
+.dropdown_1column {width: 140px;}
+.dropdown_2columns {width: 280px;}
+.dropdown_3columns {width: 420px;}
+.dropdown_4columns {width: 560px;}
+.dropdown_5columns {width: 700px;}
+.dropdown_6columns {width: 170px;}
+
+#topmenu li:hover .dropdown_1column, 
+#topmenu li:hover .dropdown_2columns, 
+#topmenu li:hover .dropdown_3columns,
+#topmenu li:hover .dropdown_4columns,
+#topmenu li:hover .dropdown_5columns,
+#topmenu li:hover .dropdown_6columns {left:-1px; top:auto;}
+
+#topmenu02 li:hover .dropdown_1column, 
+#topmenu02 li:hover .dropdown_2columns, 
+#topmenu02 li:hover .dropdown_3columns,
+#topmenu02 li:hover .dropdown_4columns,
+#topmenu02 li:hover .dropdown_5columns,
+#topmenu02 li:hover .dropdown_6columns {left:-1px; top:auto;}
+
+.col_1,
+.col_2,
+.col_3,
+.col_4,
+.col_5,
+.col_6 {
+	display:inline; font-weight:none; 
+	float: left;
+	position: relative;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.col_1 {width:130px;}
+.col_2 {width:270px;}
+.col_3 {width:410px;}
+.col_4 {width:550px;}
+.col_5 {width:690px;}
+.col_6 {width:160px;}
+
+/* MENU ALIGN RIGHT
+----------------------------------------------------------*/
+#topmenu02 .menu_right 		{float:right; margin-right:0px;}
+#topmenu02 li .align_right 	{
+	/* Rounded Corners */
+	-moz-border-radius: 5px 0px 5px 5px;
+    -webkit-border-radius: 5px 0px 5px 5px;
+    border-radius: 5px 0px 5px 5px;
+}
+#topmenu02 li:hover .align_right {left:auto;right:-1px;	top:auto;}
+
+
+/* MENU ALIGN LEFT WITHOUT SUB CATEGORY		
+----------------------------------------------------------*/
+#topmenu .menu_NoSub {float:left; margin-left:0px; margin-right:10px;}
+#topmenu li.menu_NoSub {
+	float:left;
+	display:block;
+	text-align:center;
+	position:relative;
+	padding: 4px 6px 4px 6px;
+	margin-right:0px;
+	margin-top:2px;
+	border:none;
+}
+#topmenu li.menu_NoSub:hover {	
+	/* Background color and gradients */	
+	background: none;
+		
+	/* Rounded corners */	
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+}
+#topmenu li a.menu_NoSub {
+	font-family: Arial; font-size:9pt; font-weight:bold;
+	color: #FFF;
+	display:block;
+	outline:0;
+	text-decoration:none;
+	text-shadow: 1px 1px 1px #000;
+}
+#topmenu li a.menu_NoSub:hover {
+	border: none;
+	color: #ffcc66;
+	/* Background color and gradients */	
+	background: none;	
+}
+
+
+/* STYLE FOR HOME ICON DROPDOWN
+----------------------------------------------------------*/
+#topmenu02 .menu_NoSub_HomeDropdown 	{float:right; margin-left:0px;}
+#topmenu02 li.menu_NoSub_HomeDropdown 	{float:right; display:block; 
+	text-align:center; position:relative;
+	padding: 2px 6px 4px 6px;
+	margin-right:0px; margin-top:2px; border:none;
+}
+#topmenu02 li.menu_NoSub_HomeDropdown:hover {background: none;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+}
+#topmenu02 li.menu_NoSub_HomeDropdown img {margin-right:4px; border:0px solid red;}
+form.HomeDropdown		{padding:0px; margin:0px;}
+div.HomeSelect 		{position:relative;} 
+select.HomeSelect	{position:relative; font-size:8pt; color:#666666;
+		z-index:10; 
+		width:61px !important; margin:0px; padding:0px;
+		height:18px !important;		
+}
+span.HomeSelect { /* dynamically created SPAN, placed below the SELECT */
+	position:absolute; font-size: 8pt; color:#006699; 
+	float:left; left:0; bottom:0; text-align:left; padding-left:5px;
+	width:61px; height:18px;
+	line-height:18px; text-indent:0px;
+	background:url(../../../img/plugin/HomeIconDropdown/bg_HomeIconDropdown.png) no-repeat 0 0;
+	cursor:default;
+	z-index:1;
+}
+
+/* STYLE FOR LANGUAGE DROPDOWN
+----------------------------------------------------------*/
+#topmenu02 .menu_NoSub_LanguageDropdown 	{float:right;  margin-right:0px;}
+#topmenu02 li.menu_NoSub_LanguageDropdown 	{float:right;
+	display:block;
+	text-align:center;
+	position:relative;
+	padding: 4px 6px 4px 6px;
+	margin-right:0px;
+	margin-top:2px;
+	border:none;
+}
+#topmenu02 li.menu_NoSub_LanguageDropdown:hover {	
+	background: none;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+}
+#topmenu02 li.menu_NoSub_LanguageDropdown img {width:25px; border:0px; padding-right:10px;}
+#topmenu02 li.menu_NoSub_LanguageDropdown a {float:right; display:block; position:relative;}
+#topmenu02 li.menu_NoSub_LanguageDropdown a:hover {border: none; background: none;}
+
+
+/* MENU ALIGN RIGHT WITHOUT SUB CATEGORY		
+----------------------------------------------------------*/
+#topmenu02 .menu_right_NoSub {float:right; margin-right:0px;}
+
+#topmenu02 li.menu_right_NoSub {
+	float:right;
+	display:block;
+	text-align:center;
+	position:relative;
+	padding: 4px 6px 4px 6px;
+	margin-right:0px;
+	margin-top:2px;
+	border:none;
+}
+#topmenu02 li.menu_right_NoSub:hover {	
+	/* Background color and gradients */	
+	background: none;
+		
+	/* Rounded corners */	
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+}
+#topmenu02 li a.menu_right_NoSub {
+	font-family: Arial; font-size:8pt; font-weight:bold;
+	color: #FFF;
+	display:block;
+	outline:0;
+	text-decoration:none;
+	text-shadow: 1px 1px 1px #000;
+}
+#topmenu02 li a.menu_right_NoSub:hover {
+	border: none;
+	color: #ffcc66;
+	/* Background color and gradients */	
+	background: none;	
+}
+
+
+/* LISTED CATEGORY STYLE
+----------------------------------------------------------*/
+#topmenu li:hover div a 			{color:#008888;}
+#topmenu li:hover div a:hover 		{color:#ffcc66;}
+#topmenu li ul {
+	list-style:none;
+	padding:0; margin:0;
+}
+#topmenu li ul li {	
+	line-height:20px;  /* height for listed item*/
+	position:relative;
+	padding:0; margin:0;
+	float:none;	text-align:left;
+}
+#topmenu li ul li:hover {
+	background:none; border:none;
+	padding:0; margin:0;
+}
+
+#topmenu h1 {
+	color:#000;	font-family: Arial; font-size:9pt; text-align:left;
+	margin:7px 0 1px 0;
+	padding-bottom:7px;
+}
+#topmenu h2 {
+	color:#006633;	font-family: Arial; font-size:8pt; text-align:left;
+	margin:2px 0 2px 0;
+	padding-bottom:2px;
+	border-bottom:1px solid #006633; border-style:none none dotted none;
+}
+#topmenu h3 {
+	color:#000;	font-family: Arial; font-size:8pt; text-align:left;
+	margin:25px 0 7px 0;
+	padding-bottom:7px;
+	border-bottom:1px solid #888888;
+}
+
+
+#topmenu02 li:hover div a 			{color:#008888;}
+#topmenu02 li:hover div a:hover 		{color:#ffcc66;}
+#topmenu02 li ul {
+	list-style:none;
+	padding:0; margin:0;
+}
+#topmenu02 li ul li {	
+	line-height:20px;  /* height for listed item*/
+	position:relative;
+	padding:0; margin:0;
+	float:none;	text-align:left;
+}
+#topmenu02 li ul li:hover {
+	background:none; border:none;
+	padding:0; margin:0;
+}
+
+#topmenu02 h1 {
+	color:#000;	font-family: Arial; font-size:9pt; text-align:left;
+	margin:7px 0 1px 0;
+	padding-bottom:7px;
+	border-bottom:1px solid #888888;
+}
+#topmenu02 h2 {
+	color:#006633;	font-family: Arial; font-size:8pt; text-align:left;
+	margin:2px 0 2px 0;
+	padding-bottom:2px;
+	border-bottom:1px solid #006633; border-style:none none dotted none;
+}
+#topmenu02 h3 {
+	color:#000;	font-family: Arial; font-size:8pt; text-align:left;
+	margin:25px 0 7px 0;
+	padding-bottom:7px;
+	border-bottom:1px solid #888888;
+}
+
+
+
+/* STYLE FOR SUBJECT DESCRIPTION
+----------------------------------------------------------*/
+font.tpm_content1 	{font-family:Arial; font-size: 9pt; color:#666666; text-align:justify;}
+
+
+/* B DROP DOWN SELECT FILTER 
+----------------------------------------------------------*/
+#DropFilter 	{list-style:none; height:26px; width:110px;
+	margin:1px auto 0px auto; /*top right bottom left*/
+	padding:0px 1px 0px 1px;
+}
+td.DropFilter_line_horizontal	{background:url("../../../img/pix_blank.gif") no-repeat; background-color:#22aae8; color:#22aae8; height:2px;}
+td.DropFilter_line_vertical	{background:url("../../../img/pix_blank.gif") no-repeat; background-color:#cccccc; color:#cccccc; width:1px;}
+
+/* DROP DOWN SELECT FILTER STYLING MENU ITEMS */
+#DropFilter ul li 	{margin: 1px; padding: 1px;}
+#DropFilter li 		{float:center;	display:inherit; text-align:center; position:relative;
+	padding: 4px 6px 4px 6px;  /*top right bottom left*/
+	margin-right:0px; margin-top:2px; border:none;
+}
+#DropFilter li:hover 	{border: 1px solid #999999;	padding: 4px 5px 4px 5px; background: #FFFFFF;		
+	/* Rounded corners */	
+	-moz-border-radius: 5px 5px 0px 0px;
+	-webkit-border-radius: 5px 5px 0px 0px;
+	border-radius: 5px 5px 0px 0px;
+}
+#DropFilter li a 		{font-family:"Microsoft JhengHei UI", "Microsoft JhengHei", Arial, simsun, sans-serif; font-size:8pt; color: #000; display:block; outline:0; text-decoration:none; font-weight:bold;}
+#DropFilter li.nodrop a {font-family:"Microsoft JhengHei UI", "Microsoft JhengHei", Arial, simsun, sans-serif; font-size:8pt; color: #000; display:inline; outline:0; text-decoration:none;}
+#DropFilter li:hover a 			{color:#161616;}
+#DropFilter ul li a.more:link 	{font-size: 8pt; text-decoration: none; color: #006699; font-weight:normal; margin-bottom: 0px; margin-top: 0px;}
+#DropFilter ul li a.more:hover	{font-size: 8pt; text-decoration: none; color: #161616; font-weight:normal; margin-bottom: 0px; margin-top: 0px;}
+#DropFilter ul li a.more:visited 	{font-size: 8pt; text-decoration: none; color: #006699; font-weight:normal; margin-bottom: 0px; margin-top: 0px;}
+#DropFilter ul li a.more:active 	{font-size: 8pt; text-decoration: none; color: #006699; font-weight:normal; margin-bottom: 0px; margin-top: 0px;}
+
+/* DROP DOWN SELECT FILTER DROPDOWN ARROW ICON */
+#DropFilter li .drop 		{padding-right:12px; font-size:8pt; font-weight:bold; font-family:Arial, simsun; background:url("../../../img/plugin/topmenu/ico_dropfilter_drop_off.gif") no-repeat right 6px;}
+#DropFilter li:hover .drop 	{color: #000; background:url("../../../img/plugin/topmenu/ico_dropfilter_drop_on.gif") no-repeat right 6px;}
+
+#DropFilter li .drop1 		{padding-right:12px; font-size:8pt; font-weight:normal;font-size: 9pt; color: #336699; font-family:Arial, simsun; background:url("../../../img/plugin/topmenu/ico_dropfilter_drop_off.gif") no-repeat right 6px;}
+#DropFilter li:hover .drop1 	{color: #336699; background:url("../../../img/plugin/topmenu/ico_dropfilter_drop_on.gif") no-repeat right 6px;}
+
+
+/* DROP DOWN SELECT FILTER DROPDOWN COLUMN */
+#DropFilter .dropdown_1column, 
+#DropFilter .dropdown_2columns, 
+#DropFilter .dropdown_3columns {
+	margin:4px auto; float:left; position:absolute; z-index:100;
+	left:-999em; /* Hides the drop down */
+	text-align:left; padding:10px 5px 10px 5px;  /*top right bottom left*/
+	border:1px solid #999999; border-top-color:#cccccc; border-top-style:dotted;
+	/* Gradient background */
+	background:#FFFFFF;
+	/* Rounded Corners */
+	-moz-border-radius: 0px 5px 5px 5px;
+	-webkit-border-radius: 0px 5px 5px 5px;
+	border-radius: 0px 5px 5px 5px;		
+}
+
+#DropFilter li:hover .dropdown_1column, 
+#DropFilter li:hover .dropdown_2columns, 
+#DropFilter li:hover .dropdown_3columns,
+#DropFilter li:hover .dropdown_4columns,
+#DropFilter li:hover .dropdown_5columns {left:-1px; top:auto;}
+
+/* DROP DOWN SELECT FILTER MENU ALIGN RIGHT */
+#DropFilter .menu_right 		{float:right; margin-right:0px;}
+#DropFilter li .align_right 	{
+	/* Rounded Corners */
+	-moz-border-radius: 5px 0px 5px 5px;
+    -webkit-border-radius: 5px 0px 5px 5px;
+    border-radius: 5px 0px 5px 5px;
+}
+#DropFilter li:hover .align_right {left:auto; right:-1px; top:auto;}
+
+/* DROP DOWN SELECT FILTER LISTED CATEGORY STYLE */
+#DropFilter li:hover div a 		{color:#015b86;}
+#DropFilter li:hover div a:hover 	{color:#029feb;}
+
+#DropFilter li ul 				{list-style:none; padding:0; margin:0;}
+#DropFilter li ul li 				{	
+	line-height:20px;  /* height for listed item*/
+	position:relative; padding:0; margin:0;	float:none;	text-align:left;
+}
+#DropFilter li ul li:hover 		{background:none; border:none; padding:0; margin:0;}
+
+#DropFilter h1 	{color:#000; font-family:Arial, simsun; font-size:9pt; text-align:left; margin:0px; padding:0px;}
+#DropFilter h2 	{color:#006633; font-family:Arial, simsun; font-size:8pt; text-align:left;	margin:2px 0 2px 0;	padding-bottom:2px;	border-bottom:1px solid #006633; border-style:none none dotted none;}
+
+#DropFilter li:hover .dropdown_5columns{width:350px;}
+.col_5 {width:340px;}

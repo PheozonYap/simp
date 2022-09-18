@@ -1,0 +1,69 @@
+<div>
+<table border="0" cellspacing="0" cellpadding="0" class="footer">
+<tbody>
+<tr>
+<td width="60%" align="left">
+    <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+    <th>USEFUL LINKS</th>
+    </tr>
+    <tr>
+    <td><a href="#">Shipping</a></td>
+    </tr>
+    <tr>
+    <td><a href="#">Returns</a></td>
+    </tr>
+    <tr>
+    <td><a href="#">Privacy Policy</a></td>
+    </tr>
+    <tr>
+    <td><a href="#">Imprint</a></td>
+    </tr>
+    <tr>
+    <td><a href="#">Forum</a></td>
+    </tr>
+    <tr>
+    <td><a href="#">My Timeline</a></td>
+    </tr>
+    <tr>
+    <td><a href="#">Member Blog</a></td>
+    </tr>
+    </table>
+</td>
+<td width="40%" align="left">
+    <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+    <th align="left">BE IN THE KNOW</th>
+    </tr>
+    <tr>
+    <td align="left">Sign up for the latest news, offers and styles</td>
+    </tr>
+    <tr>
+    <td align="left"><input type="email" name="EMAIL" value="" placeholder="Your Email" size="50" class="email_box"></td>
+    </tr>
+    <tr>
+    <td align="left"><a href="#"><button class="btn_sub">Subscribe</button></a></td>
+    </tr>
+    </table>
+</td>
+</tr>
+</tbody>
+</table><br />
+    
+<table border="0" cellspacing="0" cellpadding="0" class="divider">
+<tr>
+<td>&nbsp;</td>
+</tr>
+</table>
+    
+<table border="0" cellspacing="0" cellpadding="0" class="footer_log">
+<tbody>
+<tr>
+<td width="60%" align="left">&copy; 2017, OCTA
+</td>
+<td width="40%" align="right"><img src="../img/log_cc.jpg" border="0">
+</td>
+</tr>
+</tbody>
+</table>    
+</div>

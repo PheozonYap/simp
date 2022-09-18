@@ -1,0 +1,302 @@
+/* GENERAL SITE CSS
+---------------------------------------------------------------------------------------------------------------------*/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend,input,label {margin:0; padding:0;}
+body	  		{background-color:#fff; font-family: Arial;}
+.wrapper	    {width:100%; margin: 0; padding: 0; display: block;} 
+font.title		{font-size:16pt; color:#006666; font-weight:bold;}
+.topbar			{height: 34px; border-bottom: 1px solid #f8f8f8; background: #f8f8f8; line-height: 34px;color: #666; min-width: 1000px; position: relative; z-index: 1000;}
+.LogoPanel		{height:70px;}
+.SiteTable		{width:1100px;} 
+.footer 		{width: 100%; background: #f3f3f3; height: 200px;}
+.TopMenuBar		{width:100%;}
+.theme			{padding-top:20px;}
+
+/* TOP NAVIGATION 
+---------------------------------------------------------------------------------------------------------------------*/
+#logo					{}
+#logo a 				{display: block; width: 75px; height: 100%;  text-indent: -2000em; overflow: hidden; text-decoration: none; float: left;}
+.topbar a 				{color:#000; text-decoration:none;}
+.topbar a:hover			{color:#ff0000; text-decoration:underline;}
+.topbar .LoginName 		{color:#000; font-size:10pt;}
+
+.TopMenu 							{background: #333333;}
+.TopMenu .nav_site					{list-style:none;}
+.TopMenu .nav_site a				{float: left; text-decoration:none; line-height:37px; padding-left:10px; padding-right:10px; font-size: 12px; color:#bbb;}
+.TopMenu .nav_site a:hover			{text-decoration:none; background-color:#333333;}
+.TopMenu .nav_site li				{font-size: 14px;}
+.TopMenu .nav_site li a.selected 	{color:#bbb;}
+
+
+
+.TopTab								{width:100%;background: #da0717; /* Old browsers */
+background: -moz-linear-gradient(top, #da0717 0%, #da0717 71%, #333333 71%, #333333 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #da0717 0%,#da0717 71%,#333333 71%,#333333 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #da0717 0%,#da0717 71%,#333333 71%,#333333 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#da0717', endColorstr='#333333',GradientType=0 ); /* IE6-9 */}
+.TopTab	ul.top_nav					{list-style:none;}
+.TopTab	ul.top_nav a				{text-decoration:none; font-size: 14px; color:#ffffff;text-align:center;}
+.TopTab	ul.top_nav a:hover			{text-decoration:none;}
+.TopTab	ul.top_nav li				{width:142px;height:90px;float: left; font-size: 14px;border-right:1px solid #c7030a;}
+.TopTab	ul.top_nav li:hover			{background:#c40615;}
+.TopTab ul.top_nav li img			{width:40px;height: 40px;display:block;overflow:hidden;zoom:1;cursor:pointer;margin: 12px auto 10px;transition: margin-top .5s;}
+.TopTab ul.top_nav li span    		{font-size:13px;color:#FFF;display:block;height:20px;line-height: 16px;overflow:hidden;cursor:pointer;}
+.TopTab	ul.top_nav li.selected		{background:#c40615;}
+.TopTab	ul.top_nav li.selected a:after   {content: "";  position: relative;  top:-14px;  left: 50%;  width: 0;  border-bottom: 6px solid #333333;  border-left:5px solid transparent;  border-right: 5px solid transparent;}
+
+/* GENERAL LINK  
+---------------------------------------------------------------------------------------------------------------------*/
+a.sml:link 		{font-size:8pt; text-decoration:underline; color:#0066cc; margin-bottom:0px; margin-top: 0px;}
+a.sml:hover		{font-size:8pt; text-decoration:none; color:#0066cc; margin-bottom:0px; margin-top: 0px;}
+a.sml:visited 	{font-size:8pt; text-decoration:underline; color:#0066cc; margin-bottom:0px; margin-top: 0px;}
+a.sml:active 	{font-size:8pt; text-decoration:underline; color:#0066cc; margin-bottom:0px; margin-top: 0px;}
+
+a.white:link 	{text-decoration:none; color:#fff; margin-bottom:0px; margin-top: 0px;}
+a.white:hover	{text-decoration:underline; color:#fff; margin-bottom:0px; margin-top: 0px;}
+a.white:visited {text-decoration:none; color:#fff; margin-bottom:0px; margin-top: 0px;}
+a.white:active 	{text-decoration:none; color:#fff; margin-bottom:0px; margin-top: 0px;}
+
+
+/* GENERAL SHARED CSS   
+---------------------------------------------------------------------------------------------------------------------*/
+table				{font-size:9pt;}
+.td 				{font-size:9pt; color:#000000;}
+.font_bold			{font-weight:bold;}
+.font_9				{font-size:9pt;}
+.font_12			{font-size:12pt;}
+.font_16			{font-size:16pt;}
+.font_26			{font-size:26pt;}
+.font_60			{font-size:60pt;}
+.font_white			{color:#ffffff;}
+.font_gray			{color:#747674}
+.font_red			{color:#ff0013}
+.margin_b			{margin-bottom:0 !important;}
+
+/* GENERAL FORM LAYOUT ELEMENTS   
+---------------------------------------------------------------------------------------------------------------------*/
+form		{width: 100%; padding:0px; margin:0px;}
+fieldset    {border:1px solid #ddd; padding:0 1.4em 1.4em 1.4em; margin:0 0 1.5em 0;}
+legend      {font-size:1.2em; font-weight: bold;}
+select		{font-family:Arial, simsun; font-size:9pt; border: 1px solid #999999; background-color:#FFFFFF; -moz-border-radius: 3px;  -webkit-border-radius: 3px;  border-radius: 3px;}
+textarea	{font-family:Arial, simsun; font-size:9pt; border: 1px solid #999999;}
+
+/* input text and button */
+input[type="text"]				{font-family:Arial, simsun; font-size: 9pt; background-color:#FFF; border: 1px solid #999999; padding:0px; margin:0px;}
+input[type="text"]:disabled		{background-color: #f0f0f0; border: 1px solid #999999;}
+input[type="password"]				{font-family:Arial, simsun; font-size: 9pt; background-color:#FFF; border: 1px solid #999999; padding:0px; margin:0px;}
+input[type="password"]:disabled		{background-color: #f0f0f0; border: 1px solid #999999;}
+input[disabled="disabled"]  	{background-color: #cccccc; color:#666666;}
+
+input.btn01 {
+border:1px solid #6699cc; font-family:tahoma, '宋体'; font-size:16px; font-weight:bold; padding: 10px 20px 10px 20px; /*top right bottom left*/
+text-decoration:none; display:inline-block; color: #FFFFFF; cursor:pointer; border-radius: 5px;
+background: rgb(30,87,153); /* Old browsers */
+background: -moz-linear-gradient(top, rgb(30,87,153) 0%, rgb(41,137,216) 50%, rgb(32,124,202) 51%, rgb(125,185,232) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgb(30,87,153) 0%,rgb(41,137,216) 50%,rgb(32,124,202) 51%,rgb(125,185,232) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgb(30,87,153) 0%,rgb(41,137,216) 50%,rgb(32,124,202) 51%,rgb(125,185,232) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+}
+input.btn01:hover{
+border:1px solid #0066cc; cursor:pointer; text-decoration:none; background:#0066cc;
+
+}
+input.btn01:disabled     {font-family:Arial, simsun; background:#b9b9b9;color:#FFF;border:1px solid #C7C7C7;border:1px solid #b7b7b7; 
+-webkit-border-radius: 5px; 
+-moz-border-radius: 5px;
+border-radius: 5px;  
+text-decoration:none; display:inline-block;text-shadow: 0px 0px 0 rgba(0,0,0,0.3);font-weight:bold; color: #FFFFFF; background-color: #d3d3d3; background-image: -webkit-gradient(linear, left top, left bottom, from(#cbcaca), to(#a7a7a7));}
+ 
+
+/* checkbox and radio button */
+.styling_checkbox,
+.styling_radio							{position: absolute;  -moz-opacity: 0;  -webkit-opacity: 0;  opacity: 0;}
+label									{margin:0px; padding:0px;} /* prevent the entire page from scrolling*/
+.styling_checkbox, .styling_radio		{position: static\30;} /* checkbox and radio button fallback for IE6, IE7 and IE8 */
+
+.styling_checkbox ~ span::before,
+.styling_radio ~ span::before			{content: ""; display: inline-block; width: 14px; height: 14px; vertical-align: middle; background-repeat:  no-repeat;}
+
+.styling_checkbox:checked ~ span::before	{background-position: 0 -14px;}
+.styling_radio ~ span::before			{background-position: -14px 0;}
+.styling_radio:checked ~ span::before	{background-position: -14px -14px;}
+
+.styling_radio:disabled ~ span,
+.styling_checkbox:disabled ~ span,
+.styling_radio:disabled ~ span::before,
+.styling_checkbox:disabled ~ span::before{-moz-opacity: .6;	-webkit-opacity: .6;  opacity: .6;} /* disabled form elements */
+
+.styling_checkbox:focus ~ span::before,
+.styling_radio:focus ~ span::before,
+.styling_checkbox:active ~ span::before,
+.styling_radio:active ~ span::before		{outline: dotted 1px #ccc;} /* focused and active form elements */
+
+.styling_checkbox ~ span::before,
+.styling_radio ~ span::before			{background-image: url("../../../img/plugin/pic_formelement.png");} /* skin-specific sprite */
+
+
+/*Octafa Fest Header*/
+.search_box 					{background:#505050;width:250px;height:25px;display:inline-block;margin-top:5px;border-radius:3px;float:right;}
+.search_box input[type="text"]	{background:#505050;width:220px;height:25px;border:none;color:#fff;outline:0;}
+.search_box img					{float:right;border:0;margin:3px;}
+.login							{color:#fff;line-height:90px;margin-left:5px;cursor:pointer;}
+.ico_login						{padding:5px;border:0;}
+.login span						{vertical-align:14px;}
+.ico_arrow_down					{vertical-align:-1px;border:0;padding-left:3px;}
+.ico_logo						{margin-left:-15px;}
+.ico_switch_tab					{padding:7px;}
+.switch_tab						{line-height:40px;height:38px;width:110px;display:block;color:#777;background:#e5e3e3;border-left:3px solid #da0a1a;margin-bottom:1px;}
+.switch_tab span				{vertical-align:10px;cursor:pointer;}
+.switch_tab_select span a		{text-decoration:none;color:#fff;}
+.switch_tab_select				{height:38px;width:110px;display:block;color:#fff;background:#da0a1a;border-left:3px solid #da0a1a;margin-bottom:1px;}
+.switch_tab_select span			{vertical-align:10px;}
+
+.switch_tab_content				{background:#f7f7f7;}
+.switch_tab_content img			{cursor:pointer;}
+.ico_banner01					{width:1100px;margin-top:20px;}
+.title							{font-size:20px;color:#333;border-bottom:3px solid  #333;height:27px;line-height:32px;margin-top:20px;}
+.title strong					{border-bottom:3px solid #da0717}
+
+/*Gsmes Type*/
+.games_type						{background:#fff;margin-top:20px;}
+.games_type_name				{font-size:16px;color:#c40615;line-height:20px;}
+.games_info						{color:#999;font-size:10px;line-height:20px;}
+ul.games_tab					{list-style:none;margin-left:20px;}
+ul.games_tab li					{float:left;width:120px;height:40px;display:block;line-height:40px;background:#f7f7f7;text-align:center;margin-left:10px;}
+ul.games_tab li	a				{padding:5px;text-decoration:none;font-weight:bold;}
+ul.games_tab li img				{border:0;margin-right:5px;vertical-align:-4px;}
+ul.games_tab li.selected		{background:#c40615;}
+ul.games_tab li.selected a		{text-decoration:none;color:#fff;}
+
+ul.games_tab02						{list-style:none;}
+ul.games_tab02 li					{float:left;width:95px;height:40px;display:block;line-height:40px;background:#fff;text-align:left;margin-right:10px;}
+ul.games_tab02 li	a				{padding:5px 0;text-decoration:none;font-weight:bold;color:#333}
+ul.games_tab02 li img				{border:0;margin-right:5px;vertical-align:-4px;}
+
+/*news*/
+.left_col						{width:750px; padding-right: 30px;}
+.right_col						{width:310px;}
+.news_info						{float:left;padding-left:10px;color:#9fa19f;}
+.news_tbl						{padding:20px 0;border-bottom: 1px solid #e5e5e5;}
+.news_title						{font-size:18px;font-weight:bold;padding-left:10px;}
+.news_p							{line-height: 20px;height:64px;overflow:hidden;margin-bottom:32px;padding-left:10px;color:#9fa19f;}
+.user							{width:110px;}
+.date							{width:130px;}
+.tag							{}
+.ico_news						{vertical-align:-7px;border:0;margin:0 5px;}
+.news_more						{height: 40px;line-height: 40px;background-color: #f7f7f7;color:#9fa19f;text-align:center;}
+
+/*live streaming*/
+.live_stream_tbl				{margin:20px 0;}
+.live_stream_tbl img			{width:750px;height:456px;}
+.live_chat_tbl					{margin:20px 0;}
+.live_channel_tbl				{width:310px;}
+
+/*live chat*/
+.live_chat						{border:1px solid #CCC;width:220px;border-top-right-radius:10px;border-top-left-radius:10px;}
+.live_chat td.chat_title		{background:#730f0f;font-weight:bold;font-size:12px;color:#fff;height:30px;line-height:30px;padding:0 10px;border-top-right-radius:10px;border-top-left-radius:10px;}
+.live_chat td.chat_content		{background:#fff;height:200px;color:#333;font-size:12px;text-decoration:none;padding:5px;}
+.live_chat	a					{text-decoration:none;}
+.live_chat span.right			{float:right;}
+.ico_mini						{margin-top:8px;}
+.ico_message					{vertical-align:-4px;margin-right:5px;}
+.chat_typing input[type="text"]	{padding-left:5px;outline:0;background:#fff;height:30px;line-height:30px;border-top:1px solid #ccc;border-left:0;border-right:0;border-bottom:0;color:#CCC;width:218px;}
+
+/*live channel*/
+.live_channel					{padding-top:20px;}
+.live_channel .header			{background:#f7f7f7;color:#333;font-weight:bold;font-size:12px;padding:8px 10px;border-right:1px solid #e5e5e5;border-left:1px solid #e5e5e5}
+.live_channel .more				{color:#9fa19f;float:right;font-weight:normal;}
+.live_channel .content			{background:#fff;color:#333;font-size:12px;padding:8px 8px;border-right:1px solid #e5e5e5;border-left:1px solid #e5e5e5;border-bottom:1px solid #e5e5e5}
+.live_channel .date				{color:#9fa19f;float:right;font-weight:normal;width:31px;line-height:24px;}
+.ico_live						{vertical-align:-6px;}
+.live_channel a					{text-decoration:none;}
+
+/*Hot Video*/
+.ico_refresh					{vertical-align:-4px;float:right}
+.hot_video						{padding:8px 0;line-height:25px;}
+.ico_video						{vertical-align:-3px;}
+.ico_chat						{padding-right:20px;}
+.youtube_tbl					{margin:20px 0;}
+.youtube_tbl td					{width:250px;height:135px;display:inline-block;margin-bottom:20px;}	
+.youtube_tbl img				{width:240px;}
+.youtube_title					{color:#fff;font-size:18px;}
+.youtube_title_info				{position:relative;color:#bbb;top:-65px;left:10px;font-size:12px;line-height:20px;}
+.ico_eye						{width:15px !important;height:15px !important;margin:0 !important;vertical-align:-2px;padding-right:5px;}
+
+/*matches*/
+.match_tbl						{margin-top:20px;border-right:1px solid #f7f7f7;border-left:1px solid #f7f7f7;}
+.match_tbl th					{background:#c40615;color:#fff;font-weight:bold;height:20px;line-height:30px;padding:0 5px;border-right:1px solid #c40615;border-left:1px solid #c40615;}
+.match_tbl td					{background:#fff;border-top:1px solid #f7f7f7;border-bottom:1px solid #f7f7f7;height:20px;line-height:30px;padding:0 5px;}
+.match_tbl tr:hover td			{background:#fffff0;}
+.flag							{background:url(../img/matches/flags.png) no-repeat;display:inline-block;}
+.flag.EU						{background-position: 0 -108px;width: 18px;height: 12px;}
+.flag.CN						{background-position: -162px -108px;width: 18px;height: 12px;}
+.flag.US						{background-position: -72px -168px;width: 18px;height: 12px;}
+.flag.PH						{background-position: -18px -12px;width: 18px;height: 12px;}
+.flag.RU						{background-position: -36px -204px;width: 18px;height: 12px;}
+.flag.TH						{background-position: -108px -180px;width: 18px;height: 12px;}
+.flag.MY						{background-position: -72px -24px;width: 18px;height: 12px;}
+.flag.ID						{background-position: 0 -84px;width: 18px;height: 12px;}
+.flag.RO						{background-position: -18px 0;width: 18px;height: 12px;}
+.flag.UN						{background-position: -90px -168px;width: 18px;height: 12px;}
+.flag.PE						{background-position: -36px -12px;width: 18px;height: 12px;}
+.flag.SE						{background-position: -126px -192px;width: 18px;height: 12px;}
+.flag.XA						{background-position: -126px -156px; width: 18px;height: 12px;}
+.flag.XB						{background-position: -108px -204px;width: 18px;height: 12px;}
+.percentage						{color:#999;}
+.vs								{color:#555;}
+.mt_time						{color: #777;}
+.ico_games						{vertical-align:-3px;margin-right:10px;}
+.stats_tbl						{margin-top:20px;}
+.result_red						{color:#c00;}
+.result_green					{color:#0a0;}
+.pagination.selected			{color:#c40615;text-decoration:none;border-bottom:1px solid #c40615;font-weight:bold;}
+.pagination						{cursor:pointer;}
+
+/*forum*/
+.forum_tbl						{margin-top:20px;border-right:1px solid #f7f7f7;border-left:1px solid #f7f7f7;}
+.forum_tbl th					{background:#c40615;color:#fff;font-weight:bold;height:20px;line-height:30px;padding:0 5px;border-right:1px solid #c40615;border-left:1px solid #c40615;}
+.forum_tbl td					{background:#fff;border-top:1px solid #f7f7f7;border-bottom:1px solid #f7f7f7;height:20px;line-height:20px;padding:0 5px;font-size:14px;font-weight:bold;}
+.user							{color:#9d9d9d;font-size:10px;font-weight:normal;}
+.ico_reply						{vertical-align:-2px;padding-right:5px;}
+
+/*support*/
+.support_tbl					{margin-top:20px;line-height:30px;}
+.support_tbl th					{font-size:14px;font-weight:bold;}
+.support_tbl input[type="text"]	{height:20px;}
+input.btn_send {
+border:1px solid #c40615; font-family:Arial, simsun; font-size:15px; font-weight:bold;width:100px;height:30px;display:block;
+text-decoration:none; display:inline-block; color: #FFFFFF; cursor:pointer;border-radius:3px;
+background: #c40615; }
+input.btn_cancel {
+border:1px solid #999; font-family:Arial, simsun; font-size:15px; font-weight:bold;width:100px;height:30px;display:block;
+text-decoration:none; display:inline-block; color: #FFFFFF; cursor:pointer;border-radius:3px;
+background:#999; }
+.suppprt_info			{color:#999;font-size:12px;margin-left:50px;}
+
+/*video pop up*/
+#page-mask 					{position: fixed;left: 0;right: 0;bottom: 0;top: 0;background-color: rgba(0,0,0,0.6);}
+#window 					{position: fixed;left:25%;right:25%;top: 20%;background-color:#000;border: solid 2px gray;height:450px;width:800px;}
+#window-channel				{position: fixed;left:25%;right:25%;top: 20%;background-color:#000;border: solid 2px gray;height:450px;width:800px;}
+.ico_exit					{padding:10px;}
+
+/*floating menu*/
+.floating-menu 				{font-family: sans-serif;padding: 5px;width: 130px;z-index: 100;position: fixed;right:50px;}
+.floating-chat 				{font-family: sans-serif;padding: 5px;width: 130px;z-index: 100;position: fixed;right:95px;bottom:-5px;}
+
+/* OTHERS
+---------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

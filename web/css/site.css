@@ -1,0 +1,121 @@
+/* GENERAL SITE CSS
+---------------------------------------------------------------------------------------------------------------------*/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend,input,label {margin:0; padding:0;}
+body	  		{background-color:#191919; font-family: Arial;}
+.wrapper	    {width:100%; margin: 0; padding: 0; display: block;} 
+.topbar			{height: 30px; border-bottom: 1px solid #000; background: #ffffff; line-height: 30px;color: #666; min-width: 1000px; position: relative; z-index: 1000;font-size:9pt;}
+.SiteTable		{width:1100px;} 
+.footer 		{width: 100%; background: #f3f3f3; height: 200px;}
+.content		{color:#eee;background:#000;min-height:2630px;}
+
+/*font
+-----------------------------------------------------------------------------------------------------------*/
+.font_9				{font-size:9pt}
+.font_10			{font-size:10pt}
+.font_11			{font-size:11pt}
+.font_12			{font-size:12pt}
+
+.font_gray			{color:#7f817f;}
+.font_red			{color:#ff0013}
+
+/*Template*/
+.ico_arrow_down 			{vertical-align: -1px;border: 0;padding-left: 3px;}
+.btn_topbar					{background:#f8f8f8;padding:3px 5px;text-decoration:none;font-weight:bold;}
+.btn_topbar_right			{margin-right:10px;}
+
+
+/*Top Menu*/
+.top_menu						{height:60px;line-height:60px;}
+.ico_logo						{width:160px;vertical-align:center;}
+
+ul.menu							{float:left;list-style:none;background:url(../img/menu_bg.png) no-repeat;height:100px;line-height:100px;width:100%;}
+ul.menu	li						{float:left;color:#bcbcbc;width:97px;font-size:14px;font-family: "Oswald",sans-serif;text-align:center;font-weight:bold;}
+ul.menu	li:hover				{color:#fff;}
+
+/*Top Right User Table*/
+.user_tbl							{width:156px;margin:0;cursor:pointer;}
+.user_tbl td						{color:#999999;font-size:8pt;height:22px;line-height:22px;padding:0;margin:0;}
+.ico_user							{float:right;position:relative;width:35px;}
+.font_level							{font-size:10pt;color:#b10000;font-weight:bold;}
+.btn_daily							{background:url(../img/btn_Daily.png) no-repeat;border:0;width:100%; height:34px;padding:0;color:#fff;cursor:pointer;font-size:16px;line-height:34px;}
+
+.user_tbl:hover  .user_tbl_hover	{display:block;}
+.user_tbl_hover_wrapper				{position:relative;}
+.user_tbl_hover						{background:#33333b;height:180px;letter-spacing: 1px;line-height: 30px;position: absolute;top:2px;right:-3px;display:none;width:210px;padding:10px;}
+.user_tbl_hover:after				{content:'';position:absolute;top:-5px; width:10px;height:10px;background:#33333b;right:15%;margin-left:-10px;-moz-transform:rotate(45deg);-webkit-transform:rotate(45deg);transform:rotate(45deg);}
+.user_tbl_hover td					{color:#b5b5b5 !important;font-size: 12px;font-weight:normal;}
+.user_name							{border-top:1px solid #424247;}
+.ico_username						{vertical-align:-1px;margin-right:5px;}
+.ico_id								{vertical-align:-1px;margin-right:5px;}
+
+.Daily_quests:hover  .Daily_quests_hover	{display:block;}
+.Daily_quests_hover_wrapper					{position:relative;}
+.Daily_quests_hover							{background:#000000 url(../img/ico_dialy_footer.png)no-repeat;background-position: right bottom;height:215px;letter-spacing: 1px;position: absolute;top:11px;right:0px;display:none;width:300px;padding:10px;border:3px solid #c21723;}
+.Daily_quests_hover:after   				{content: "";  position:relative;  top: -231px;  right:-224px;  width: 0;  border-bottom: 10px solid #c21723;  border-left:9px solid transparent;  border-right: 9px solid transparent;}
+.Daily_quests_hover .daily_header			{border-bottom:1px solid #424247;padding-bottom:10px;padding-left:15px;}
+.Daily_quests_hover td.daily_title			{color:#fff !important;font-size: 16px;font-weight:bold;}
+.Daily_quests_hover td.daily_info			{color:#fff !important;font-size:10px;}
+.Daily_quests_hover .daily_content			{color:#cccccc !important;font-size: 12px;font-weight:normal;}
+.Daily_quests_hover .daily_content .info	{color:#cccccc !important;font-size:10px;}
+.Daily_quests_hover .daily_content td		{padding-bottom:10px;border-bottom:1px solid #424247;padding-top:10px;}
+.ico_coin									{vertical-align:-2px;}
+
+/*Footer Menu*/
+.footer_bg							{background:#202020;}
+ul.footer_menu						{float:left;list-style:none;padding:15px 0 15px 30px;}
+ul.footer_menu li					{float:left;width:142px;height:60px;line-height:60px;text-align:center;border-right: 1px solid #000;}
+ul.footer_menu li.first				{float:left;width:142px;height:60px;line-height:60px;text-align:center;border-right: 1px solid #000;border-left: 1px solid #000;}
+ul.footer_menu li.first a, 
+ul.footer_menu li a					{text-decoration:none;color:#aaa;font-size: 14px;font-weight:200;}
+ul.footer_menu li a:hover			{color:#d34c49;}
+
+ul.footer_list								{list-style:none;width:117px;height:298px;padding-top:20px;}
+ul.footer_list li							{padding:5px 5px 5px 32px;}
+ul.footer_list li a							{box-sizing: border-box;text-decoration:none;color:#777;font-size: 11px;}
+ul.footer_list li a:hover					{color:#d34c49;}
+ul.footer_list li.footer_title a			{color: #fff !important;font-family: "Oswald",sans-serif;font-size: 14px !important;font-weight:bold;}
+ul.footer_list li.footer_title a:hover		{color:#d34c49 !important;}
+
+/* CONTENTS
+---------------------------------------------------------------------------------------------------------------------*/
+.slice_adv				{margin:15px 0px;}
+.img_adv				{padding:15px 10px !important; text-align:center;}
+
+/*Left Row*/
+.left_row				{float:left; margin-left:15px;}
+.img_post				{margin-top:10px; !important;}
+.row_1					{margin-top:10px; !important;}
+.more_bg				{background: url(../img/button_more_bg.png); background-repeat: repeat-x; height:36px;}
+.more_bg a				{color:#48eff0; font-size: 12px; text-decoration:none;}
+.more_bg a:hover		{color:#d4d4d4;}
+
+/*Right Row*/
+.row_2					{margin-top:20px; !important;}
+.right_row				{float:right; margin-right:15px;}
+.right_row .space_1		{padding-top:10px; !important;}
+a.championship:hover    {opacity: 0.3;}
+.video:hover			{opacity: 0.3;}
+.facebook:hover			{opacity: 0.3;}
+.twitter:hover			{opacity: 0.3;}
+.google_plus:hover		{opacity: 0.3;}
+.play:hover				{opacity: 0.3;}
+.instagram:hover		{opacity: 0.3;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
